@@ -1,11 +1,24 @@
-# fresh project
+# kotkit
+
+TikTok downloader built with Next.js.
 
 ### Usage
 
-Start the project:
+Install dependencies:
 
 ```
-deno task start
+npm install
 ```
 
-This will watch the project directory and restart as necessary.
+Start the dev server:
+
+```
+npm run dev
+```
+
+Build for production:
+
+```
+npm run build
+npm start
+```
